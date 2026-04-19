@@ -1,0 +1,118 @@
+#wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    font-size: 30px;
+    
+    height: 150px;
+    display:flex;
+    align-items: center;
+    background-color: aquamarine;
+    padding-top: 1px;
+    padding-left: 50px;
+}
+
+.title{
+    font-weight: bold;
+    padding-left: 10px;
+    color: blueviolet;
+}
+
+.buttons{
+    padding-left: 400px;
+    display:flex;
+    color: blue;
+    font-weight: 400;
+    gap:30px;
+}
+
+
+.buttons div:hover{
+    cursor: pointer;
+    color:purple;
+}
+
+.home{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+body{
+    background-color:beige;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    height:100px;
+    display:flex;
+}
+
+.welcome{
+    font-size: 50px;
+    margin: auto;
+}
+
+footer{
+    height:300px;
+    font-size: 20px;
+    background-color:aqua;
+    color: blue;
+    margin-top: 450px;
+    padding-left: 30px;
+    padding-top: 30px;
+    display: flex;
+    
+}
+
+.footer_who{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.footer_box1 div:hover{
+    cursor: pointer;
+    color: purple;
+}
+
+.footer_box1{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: brown;
+}
+
+.social_logos{
+    padding-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.social_logos img:hover{
+    cursor: pointer;
+    transform: scale(130%);
+}
+
+.footer_box2{
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: chartreuse;
+}
+
+.footer_follow{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.footer_box2 div:hover{
+    cursor: pointer;
+    color: purple;
+}
+
