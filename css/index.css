@@ -57,17 +57,33 @@ main{
     background-repeat: no-repeat;
     background-color: purple;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
     padding:30px;
     box-sizing: border-box;
 }
-.box1_container{
-    background-color: chocolate;
+.box1_container1{
     display:flex;
     flex-direction: column;
     align-items: center;
+    font-size: 150px;
+    padding-left:400px;
+    font-weight: bold;
+    color:black;
+}
+.box1_container2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 150px;
+    padding-left:120px;
+    font-weight: bold;
+    color:black;
+}
+
+.board_title2{
+    padding-right:175px;
 }
 
 .description{
@@ -75,11 +91,7 @@ main{
     font-size: 40px;
 }
 
-.welcome{
-    font-size: 50px;
-    font-weight: bold;
-    color:black;
-}
+
 
 .box2{
     width:100%;
@@ -106,11 +118,45 @@ main{
 
 .box3{
     width:100%;
-    height:700px;
+    min-height:1000px;
     background-color: wheat;
-    display:flex;
-    flex-direction: column;
     box-sizing: border-box;
+}
+
+.cards_container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.card_title{
+    padding-top:20px;
+    font-weight: bold;
+    color:blue;
+    font-size: 25px;
+}
+
+.price{
+    margin-top: 15px;
+    font-size: 25px;
+    color:darkgreen
+}
+
+.card_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:15px;
+    width:170px;
+    /* background-color: yellowgreen; */
+}
+
+.card_buttons img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 .populars_header{
@@ -122,6 +168,28 @@ main{
     justify-content: center;
     background-color: tomato;
 }
+
+.card{
+    height: 600px;
+    width:400px;
+    background-image: url('../Assets/card.png');
+    background-size:contain;
+    display:flex;
+    flex-direction:column;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.card_line{
+    background-color: black;
+    margin-top: 20px;
+    height: 3px;
+    width:300px;
+}
+
 
 footer{
     height:300px;
