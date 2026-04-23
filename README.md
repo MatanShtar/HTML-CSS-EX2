@@ -1,6 +1,6 @@
-## HTML-CSS-EX2
+# HTML-CSS-EX2
 
-##TODO
+## TODO
   - Add the second page.
   - link the 2 pages as requested.
   - make it less gross.
