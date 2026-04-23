@@ -57,62 +57,69 @@ footer{
     height:300px;
     font-size: 20px;
     background-color:aqua;
-    color: blue;
+    color: black;
     margin-top: 450px;
-    padding-left: 30px;
     padding-top: 30px;
     display: flex;
-    
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.footer_who{
+.footer_box_title{
     font-weight: bold;
     font-size: 30px;
 }
 
-.footer_box1 div:hover{
-    cursor: pointer;
-    color: purple;
+.footer_boxes{
+    display:flex;
+    height:100%;
+    width:500px;
+    /* background-color:pink; */
+
 }
 
-.footer_box1{
-    width: 200px;
-    height: 200px;
-    display: flex;
+.footer_box{
+    height:270px;
+    width:300px;
+    /* background-color:yellow; */
+    display:flex;
     flex-direction: column;
-    gap: 20px;
-    background-color: brown;
+    column-gap: 100px;
+    align-items:center;
+
+}
+
+.footer_clickables{
+    height:110px;
+    width:300px;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    /* background-color:green; */
+}
+
+.footer_clickables div:hover{
+    cursor:pointer;
+    color: blueviolet;
+}
+
+.footer_clickables div{
+    margin-top: 10px;
 }
 
 .social_logos{
-    padding-left: 30px;
-    margin-top: 20px;
+    padding-top: 20px;
     display: flex;
     gap: 30px;
 }
 
 .social_logos img:hover{
-    cursor: pointer;
-    transform: scale(130%);
+    transform: scale(1.2);
+    cursor:pointer;
 }
 
-.footer_box2{
-    margin-left: 30px;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    background-color: chartreuse;
-}
-
-.footer_follow{
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.footer_box2 div:hover{
-    cursor: pointer;
-    color: purple;
+.copyright{
+    padding-bottom: 10px;
+    padding-left:10px;
 }
 
