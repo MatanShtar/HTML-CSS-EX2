@@ -1,4 +1,4 @@
-# HTML-CSS-EX2
+## HTML-CSS-EX2
 
 ##TODO
   - Add the second page.
