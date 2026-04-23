@@ -2,29 +2,29 @@
     max-width: 1400px;
     margin: 0 auto;
 }
-
 header {
     font-size: 30px;
     width:100%;
     height: 150px;
     display:flex;
     align-items: center;
-    background-color: aquamarine;
     padding-top: 1px;
     padding-left: 20px;
     box-sizing: border-box;
 }
 
 .title{
-    font-weight: bold;
+    font-weight: 700;
     padding-left: 10px;
-    color: blueviolet;
+    color: #3E3F43;
+    letter-spacing: 25%;
+    font-size:24px;
 }
 
 .buttons{
     padding-left: 400px;
     display:flex;
-    color: blue;
+    color: #612999;
     font-weight: 400;
     gap:30px;
 }
@@ -36,13 +36,12 @@ header {
 }
 
 .home{
-    font-weight: bolder;
-    text-decoration: underline;
+    font-weight: 700;
 }
 
 body{
-    background-color:beige;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:white;
+    font-family:'Nunito',sans-serif;
 }
 main{
     display:flex;
@@ -51,11 +50,7 @@ main{
 .box1{
     width:100%;
     height:400px;
-    background-image: url('../Assets/page1_background.png');
-    background-size:contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: purple;
+    background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
     display:flex;
     flex-direction: row;
     align-items: flex-start;
@@ -77,7 +72,7 @@ main{
     flex-direction: column;
     align-items: center;
     font-size: 150px;
-    padding-left:120px;
+    padding-left:0px;
     font-weight: bold;
     color:black;
 }
@@ -92,35 +87,44 @@ main{
 }
 
 
-
 .box2{
+    font-family: "Rubik",sans-serif;
     width:100%;
-    background-color: crimson;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 10px;
+    padding-left: 40px;
     box-sizing: border-box;
 }
 
 .about_header{
-    font-weight: bold;
-    font-size: 30px;
-    color:turquoise;
-    padding-left: 30px;
+    font-weight: 500;
+    font-size: 40px;
+    color:#612999;
 }
 
 .about_text{
     font-size: 20px;
-    color:cornsilk;
-    padding-top: 10px;
+    font-weight: 400;
+    color:black;
+    line-height: 90%;
 }
 
 .box3{
+    font-family: "Rubik",sans-serif;
     width:100%;
     min-height:1000px;
-    background-color: wheat;
     box-sizing: border-box;
+}
+
+.populars_header{
+    margin-top: 40px;
+    font-family: "Rubik",sans-serif;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 40px;
+    color:#612999;
 }
 
 .cards_container{
@@ -159,17 +163,9 @@ main{
     transform: scale(1.2);
 }
 
-.populars_header{
-    width:100%;
-    font-weight: bolder;
-    font-size: 60px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    background-color: tomato;
-}
 
 .card{
+    padding-top:100px;
     height: 600px;
     width:400px;
     background-image: url('../Assets/card.png');
@@ -179,7 +175,6 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     align-items: center;
-    padding-top: 100px;
     box-sizing: border-box;
 }
 
@@ -192,24 +187,25 @@ main{
 
 
 footer{
-    height:300px;
-    font-size: 20px;
-    background-color:aqua;
-    color: black;
+    height:287px;
+    font-size: 16px;
+    background-color:#EFECFF;
+    color: #333333;
     padding-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .footer_box_title{
-    font-weight: bold;
-    font-size: 30px;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .footer_boxes{
     display:flex;
-    height:100%;
+    height:85%;
     width:500px;
     /* background-color:pink; */
 
@@ -221,15 +217,16 @@ footer{
     /* background-color:yellow; */
     display:flex;
     flex-direction: column;
+    padding-left: 30px;
     column-gap: 100px;
-    align-items:center;
+    align-items:left;
 
 }
 
 .footer_clickables{
     height:110px;
     width:300px;
-    align-items: center;
+    align-items: left;
     display:flex;
     flex-direction: column;
     /* background-color:green; */
@@ -256,7 +253,8 @@ footer{
 }
 
 .copyright{
-    padding-bottom: 10px;
+    margin-bottom: 300px;
     padding-left:10px;
+    font-weight: 600;
 }
 
