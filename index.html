@@ -1,172 +1,224 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
-<head>
-    <title> Board Games </title>
-    <link rel="stylesheet" href="css/index.css">
-    <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <title>Board Games</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Abel&family=Nunito:wght@400;700;900&family=Rubik:wght@400;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Nunito:wght@400;700;900&family=Rubik:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-</head>
-
-
-<body>
+  <body>
     <div id="wrapper">
-        <header>
-            <div class="logo-wrapper">
-                <div class="logo">
-                    <img src="Assets/Header_Logo.png" alt="Header_Logo" width="70">
-                </div>
-                <div class="title">BOARD GAMES</div>
+
+      <header>
+        <div class="logo-wrapper">
+          <div class="logo">
+            <img src="Assets/Header_Logo.png" alt="Header_Logo" width="70" />
+          </div>
+          <div class="title">BOARD GAMES</div>
+        </div>
+
+        <div class="header-buttons">
+          <div class="home">Home</div>
+          <div class="shop">Our Games</div>
+          <div class="about">About</div>
+          <div class="contact">Contact Us</div>
+        </div>
+      </header>
+
+      <main>
+
+        <div class="main-img">
+          <div class="main-img-texts">
+            <div class="main-img-title">
+              <h1>Enjoy!</h1>
+            </div>
+            <div class="main-img-desc">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi
+                mauris arcu aenean in mauris elementum sed non.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-box">
+          <div class="about-header">About</div>
+          <div class="about-text">
+            <p>
+              Welcome to Board Games, your ultimate destination for tabletop fun
+              and unforgettable game nights! We believe that the best memories
+              are made around a table, surrounded by friends, family, and a
+              little bit of friendly competition. Whether you are building the
+              longest road, curing global pandemics, or just trying to
+              strategically outsmart your friends, our mission is to bring
+              people together through the magic of play. In a world full of
+              screens, we are here to help you unplug, roll the dice, and dive
+              into incredible new worlds.
+            </p>
+
+            <p>
+              Our shelves are carefully stocked by passionate gamers who know
+              exactly what makes a game truly great. From timeless classics and
+              fast-paced party games to deep, brain-burning strategy hits, we
+              have something for absolutely every type of player. Whether you
+              are looking for a quick 15-minute card game to break the ice or an
+              epic, immersive campaign, we’ve got the perfect box waiting for
+              you. We pride ourselves on offering the best staples—like Catan,
+              Ticket to Ride, and Carcassonne—alongside beautiful modern gems
+              like Sagrada and Hanamikoji.
+            </p>
+
+            <p>
+              We are more than just a place to buy games; we are a community of
+              meeple-movers, card-shufflers, and board-builders. We are always
+              here to offer personalized recommendations, help you decipher a
+              tricky rulebook, and ensure you find exactly what you need for
+              your next gathering. So pull up a chair, browse our collection,
+              and let’s find your new favorite game. Your next great adventure
+              is just a cardboard box away!
+            </p>
+          </div>
+        </div>
+
+        <div class="populars-header">Popular Games</div>
+
+        <div class="cards-container">
+          <div class="card">
+            <div class="card-top">
+              <img class="game-img" src="Assets/catan.jpg" alt="Catan Image" />
+              <button class="card-heart-btn" aria-label="Add to favorites">
+                <img src="Assets/heart-icon.svg" />
+              </button>
             </div>
 
-            <div class="buttons">
-                <div class="home"> Home </div>
-                <div class="shop"> Our Games </div>
-                <div class="about"> About </div>
-                <div class="contact"> Contact Us </div>
+            <div class="card-bottom">
+              <h2 class="card-title">Catan</h2>
+              <p class="card-description">Collect and trade resources to build up the island of Catan in this modern classic.</p>
+              <div class="card-footer">
+                <span class="card-price">$49.99 us</span>
+                <button class="card-cart-btn" aria-label="Add to Cart">
+                  <img src="Assets/shopping-basket.svg" />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <img class="game-img" src="Assets/explodingkittens.jpg" alt="Exploding Kittens Image" />
+              <button class="card-heart-btn" aria-label="Add to favorites">
+                <img src="Assets/heart-icon.svg" />
+              </button>
             </div>
 
-        </header>
-        <main>
-            <div class="main-img">
-                <div class="main-img-texts">
-                    <div class="main-img-title">
-                        <h1> Enjoy! </h1>
-                    </div>
-                    <div class="main-img-desc">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi mauris arcu aenean in mauris
-                            elementum sed non. </p>
-                    </div>
-                </div>
+            <div class="card-bottom">
+              <h2 class="card-title">Exploding Kittens</h2>
+              <p class="card-description">Ask for favors, attack friends, see the future- whatever it takes to avoid exploding!</p>
+              <div class="card-footer">
+                <span class="card-price">$19.82 us</span>
+                <button class="card-cart-btn" aria-label="Add to Cart">
+                  <img src="Assets/shopping-basket.svg" />
+                </button>
+              </div>
             </div>
-            <div class="about-box">
-                <div class="about_header">About</div>
-                <div class="about_text">
-                    <p>Welcome to Board Games, your ultimate destination for tabletop fun and unforgettable game nights!
-                        We
-                        believe that the best memories are made around a table, surrounded by friends, family, and a
-                        little bit of
-                        friendly competition. Whether you are building the longest road, curing global pandemics, or
-                        just trying to
-                        strategically outsmart your friends, our mission is to bring people together through the magic
-                        of play. In a
-                        world full of screens, we are here to help you unplug, roll the dice, and dive into incredible
-                        new worlds.</p>
+          </div>
 
-                    <p>Our shelves are carefully stocked by passionate gamers who know exactly what makes a game truly
-                        great. From
-                        timeless classics and fast-paced party games to deep, brain-burning strategy hits, we have
-                        something for
-                        absolutely every type of player. Whether you are looking for a quick 15-minute card game to
-                        break the ice or
-                        an epic, immersive campaign, we’ve got the perfect box waiting for you. We pride ourselves on
-                        offering the
-                        best staples—like Catan, Ticket to Ride, and Carcassonne—alongside beautiful modern gems like
-                        Sagrada and
-                        Hanamikoji.</p>
-
-                    <p>We are more than just a place to buy games; we are a community of meeple-movers, card-shufflers,
-                        and
-                        board-builders. We are always here to offer personalized recommendations, help you decipher a
-                        tricky
-                        rulebook, and ensure you find exactly what you need for your next gathering. So pull up a chair,
-                        browse our
-                        collection, and let’s find your new favorite game. Your next great adventure is just a cardboard
-                        box away!</p>
-                </div>
+          <div class="card">
+            <div class="card-top">
+              <img class="game-img" src="Assets/ticketToRide.jpg" alt="Ticket to Ride Image" />
+              <button class="card-heart-btn" aria-label="Add to favorites">
+                <img src="Assets/heart-icon.svg" />
+              </button>
             </div>
-            <div class="populars_header">Popular Games</div>
-            <div class="box3">
-                <div class="cards_container">
-                    <div class="card">
-                        <img src="Assets/catan.png" alt="catan_img" height="200px">
-                        <div class="card_line"></div>
-                        <div class="card_title">Catan</div>
-                        <div class="price">0.6BTC🪙</div>
-                        <div class="card_buttons">
-                            <img src="Assets/heart.png" alt="heart_img" width="50px">
-                            <img src="Assets/shoppingcart.png" alt="shoppingcart_img" width="50px">
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="Assets/explodingkittens.png" alt="explodingkittens_img" height="200px">
-                        <div class="card_line"></div>
-                        <div class="card_title">Exploding Kittens</div>
-                        <div class="price">0.9BTC🪙</div>
-                        <div class="card_buttons">
-                            <img src="Assets/heart.png" alt="heart_img" width="50px">
-                            <img src="Assets/shoppingcart.png" alt="shoppingcart_img" width="50px">
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="Assets/monopoly.png" alt="monopoly_img" height="200px">
-                        <div class="card_line"></div>
-                        <div class="card_title">Monopoly</div>
-                        <div class="price">1.2BTC🪙</div>
-                        <div class="card_buttons">
-                            <img src="Assets/heart.png" alt="heart_img" width="50px">
-                            <img src="Assets/shoppingcart.png" alt="shoppingcart_img" width="50px">
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="Assets/cardsagainsthumanity.png" alt="cardsagainsthumanity_img" height="200px">
-                        <div class="card_line"></div>
-                        <div class="card_title">Cards Against Humanity</div>
-                        <div class="price">0.01BTC🪙</div>
-                        <div class="card_buttons">
-                            <img src="Assets/heart.png" alt="heart_img" width="50px">
-                            <img src="Assets/shoppingcart.png" alt="shoppingcart_img" width="50px">
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="Assets/tickettoride.png" alt="tickettoride_img" height="200px">
-                        <div class="card_line"></div>
-                        <div class="card_title">Ticket To Ride</div>
-                        <div class="price">3.9BTC🪙</div>
-                        <div class="card_buttons">
-                            <img src="Assets/heart.png" alt="heart_img" width="50px">
-                            <img src="Assets/shoppingcart.png" alt="shoppingcart_img" width="50px">
-                        </div>
-                    </div>
-                </div>
+
+            <div class="card-bottom">
+              <h2 class="card-title">Ticket to Ride</h2>
+              <p class="card-description">All aboard! Collect trains, choo-choo-choose your routes, fulfill your destination!</p>
+              <div class="card-footer">
+                <span class="card-price">$43.99 us</span>
+                <button class="card-cart-btn" aria-label="Add to Cart">
+                  <img src="Assets/shopping-basket.svg" />
+                </button>
+              </div>
             </div>
-        </main>
+          </div>
 
-        <footer>
-            <div class="footer_boxes">
-                <div class="footer_box">
-                    <div class="footer_box_title">WHO WE ARE</div>
-                    <div class="footer_clickables">
-                        <div class="footer_about"> About </div>
-                        <div class="footer_team"> Team </div>
-                        <div class="footer_work"> Work With Us </div>
-                    </div>
-                    <div class="social_logos">
-                        <img src="Assets/Twitter_logo.png" alt="Header_Logo" width="20">
-                        <img src="Assets/Facebook_logo.png" alt="Header_Logo" width="20">
-                        <img src="Assets/Instagram_logo.png" alt="Header_Logo" width="20">
-                    </div>
-
-                </div>
-
-                <div class="footer_box">
-                    <div class="footer_box_title"> FOLLOW US</div>
-                    <div class="footer_clickables">
-                        <div class="footer_twitter"> Twitter </div>
-                        <div class="footer_facebook"> Facebook </div>
-                        <div class="footer_instagram"> Instagram </div>
-                    </div>
-                </div>
+          <div class="card">
+            <div class="card-top">
+              <img class="game-img" src="Assets/codenames.jpg" alt="Codenames Image" />
+              <button class="card-heart-btn" aria-label="Add to favorites">
+                <img src="Assets/heart-icon.svg" />
+              </button>
             </div>
-            <div class="copyright"> © 2026 Board Games r Us </div>
-        </footer>
+
+            <div class="card-bottom">
+              <h2 class="card-title">Codenames</h2>
+              <p class="card-description">Give your team clever one-word clues to help them spot their agents in the field.</p>
+              <div class="card-footer">
+                <span class="card-price">$24.99 us</span>
+                <button class="card-cart-btn" aria-label="Add to Cart">
+                  <img src="Assets/shopping-basket.svg" />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <img class="game-img" src="Assets/alchemists.jpg" alt="Alchemists Image" />
+              <button class="card-heart-btn" aria-label="Add to favorites">
+                <img src="Assets/heart-icon.svg" />
+              </button>
+            </div>
+
+            <div class="card-bottom">
+              <h2 class="card-title">Alchemists</h2>
+              <p class="card-description">Showcase your alchemical know-how by publishing theories in this app-driven game.</p>
+              <div class="card-footer">
+                <span class="card-price">$67.49 us</span>
+                <button class="card-cart-btn" aria-label="Add to Cart">
+                  <img src="Assets/shopping-basket.svg" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <div class="footer-boxes">
+          <div class="footer-box">
+            <div class="footer-box-title">WHO WE ARE</div>
+            <div class="footer-clickables">
+              <a class="footer-about">About</a>
+              <a class="footer-team">Team</a>
+              <a class="footer-work">Work With Us</a>
+            </div>
+            <div class="social-logos">
+              <a href="https://x.com" target="_blank"><img src="Assets/Twitter_logo.png" alt="Twitter logo" /></a>
+              <a href="https://facebook.com" target="_blank"><img src="Assets/Facebook_logo.png" alt="Facebook logo" /></a>
+              <a href="https://instagram.com" target="_blank"><img src="Assets/Instagram_logo.png" alt="Instagram logo" /></a>
+            </div>
+          </div>
+
+          <div class="footer-box">
+            <div class="footer-box-title">FOLLOW US</div>
+            <div class="footer-clickables">
+              <a class="footer-twitter" href="https://x.com" target="_blank">Twitter</a>
+              <a class="footer-facebook" href="https://facebook.com" target="_blank">Facebook</a>
+              <a class="footer-instagram" href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">© 2026 Board Games</div>
+      </footer>
     </div>
-</body>
-
+  </body>
 </html>
