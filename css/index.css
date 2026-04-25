@@ -1,6 +1,8 @@
 #wrapper {
     max-width: 1400px;
     margin: 0 auto;
+    padding: 32px;
+    padding-bottom: 32px;
 }
 header {
     font-size: 30px;
@@ -8,9 +10,16 @@ header {
     height: 150px;
     display:flex;
     align-items: center;
+    justify-content: left;
     padding-top: 1px;
-    padding-left: 20px;
     box-sizing: border-box;
+}
+
+.logo-wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .title{
@@ -22,11 +31,12 @@ header {
 }
 
 .buttons{
-    padding-left: 400px;
+    width:100%;
     display:flex;
     color: #612999;
     font-weight: 400;
-    gap:30px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 
@@ -42,58 +52,66 @@ header {
 body{
     background-color:white;
     font-family:'Nunito',sans-serif;
+    overflow-x: hidden;
 }
 main{
     display:flex;
     flex-direction: column;
 }
-.box1{
-    width:100%;
-    height:400px;
-    background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
-    display:flex;
+.main-img{
+    width: 100vw;
+    height: 797px;
+    margin-left: calc(50% - 50vw);
+    background-image: url(../Assets/background_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    padding:30px;
     box-sizing: border-box;
 }
-.box1_container1{
-    display:flex;
+
+.main-img-texts{
+    padding: 32px;
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    font-size: 150px;
-    padding-left:400px;
-    font-weight: bold;
-    color:black;
 }
-.box1_container2{
+
+.main-img-title{
+    height: 131px;
+    width: 448px;
     display:flex;
-    flex-direction: column;
     align-items: center;
-    font-size: 150px;
-    padding-left:0px;
-    font-weight: bold;
-    color:black;
 }
 
-.board_title2{
-    padding-right:175px;
+.main-img-title > h1{
+    line-height: 100%;
+    color: #612999;
+    font-size: 96px;
+    font-weight: 800;
 }
 
-.description{
-    color: blue;
-    font-size: 40px;
+.main-img-desc{
+    height: 99px;
+    width: 448px;
+    display:flex;
+    align-items: center;
+}
+
+.main-img-desc > p{
+    line-height: 100%;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 
-.box2{
+.about-box{
     font-family: "Rubik",sans-serif;
     width:100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 40px;
     box-sizing: border-box;
 }
 
@@ -107,7 +125,7 @@ main{
     font-size: 20px;
     font-weight: 400;
     color:black;
-    line-height: 90%;
+    line-height: 141%;
 }
 
 .box3{
@@ -118,9 +136,8 @@ main{
 }
 
 .populars_header{
-    margin-top: 40px;
+    background-color: yellow;
     font-family: "Rubik",sans-serif;
-    padding-left: 40px;
     box-sizing: border-box;
     font-weight: 500;
     font-size: 40px;
